@@ -2,7 +2,7 @@
 import { lazy, Suspense } from 'react';
 import './App.css';
 
-const Heavy = lazy(() => import('./components/heavy-component'));
+const Heavy = lazy(() => import('./heavy-component'));
 
 function App() {
     return (
